@@ -21,3 +21,10 @@ Suggested scientific category for the author to evaluate: informatics, with mole
 Check the live submission form for its exact constraints; confirm author list/affiliations and required declarations; decide which figures the venue permits; confirm public-release policy before posting conference-bound results. Neither fee payment nor abstract submission is included in this work.
 
 This document records an access limitation, not an additional scientific experiment or an assertion that public data sharing is prohibited.
+
+
+## Final editorial review - 21 September 2026
+
+The author-review packet has a 245-word structured abstract, three main figures, and one supplementary outcome breakdown. Figure 1 presents joint failures and gives both pair-level and shared-pattern analyses comparable prominence; Figure 2 illustrates the mechanism using detailed synthetic lung reports; Figure 3 explains the separate local failure experiment. No new inference or changes to frozen outputs were made in this editorial pass.
+
+The official [USCAP abstract-writing guidance](https://uscap.org/how-to-write-an-abstract-for-uscap-annual-meetings/) recommends concise Background, Design, Results, and Conclusions sections and cautions against overly complex panels. The [2027 meeting site](https://2027am.uscap.org/) links to a submission portal; current portal-specific word/character, figure, anonymity, disclosure, and prior-publication requirements were not verified. Do not use old-year rules as 2027 requirements. Because the research companion is already public, authors should explicitly check its compatibility with the current prior-publication policy before submitting. Actual human author review remains outstanding; internal AI-assisted review is not external peer review.
