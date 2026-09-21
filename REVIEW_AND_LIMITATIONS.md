@@ -67,3 +67,8 @@ The initial 160-pair local experiment is preserved unchanged. At the author’s 
 ## What still requires people rather than editorial automation
 
 The author must confirm authorship, affiliations, funding/conflicts, rights to release the bundled code/data and final submission attestations. Independent pathology assessment of report realism and annotation policy remains scientifically valuable but has not occurred. Representative clinical validation and downstream utility experiments remain future work, not concealed prerequisites claimed as completed. No conference submission has been made.
+
+
+## Clarification: the BRAF illustration
+
+The archived BRAF p.V600E example demonstrates unnecessary removal of useful molecular information. The variant is not designated as a patient identifier in this example; the synthetic name and medical-record number are identifying fields. Identifier leakage and molecular over-redaction are separate endpoints. Neither the example nor this benchmark measures genomic re-identification risk.
