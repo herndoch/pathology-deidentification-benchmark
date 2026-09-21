@@ -14,13 +14,13 @@
     },
     {
       "path": "ABSTRACT.md",
-      "bytes": 2113,
-      "sha256": "76edeca8fe846365ae105c29aed4fbfb35d0a6ad04ec016b3541ae3b3d7f4196"
+      "bytes": 2167,
+      "sha256": "b2ecbf7eced5b3dbfd13cb93233a975a2e904f2e3d20a97dbaa3b631ffd4f8f8"
     },
     {
       "path": "ALL_FINDINGS.md",
-      "bytes": 13619,
-      "sha256": "d29f9b267d474a7823f64abe8ec1bd458e7db190376b5ca2fb32e8bdf97b1638"
+      "bytes": 13793,
+      "sha256": "a35b2fd9480444f6521325d7b64b6a49fc47a20f7d85bc91616aaa5ef3ea63d7"
     },
     {
       "path": "audit/frozen_scorer.py",
@@ -44,8 +44,8 @@
     },
     {
       "path": "data/labels.json",
-      "bytes": 298,
-      "sha256": "0c222c76aaed3ce4cfa45e9a1431ffcca74eecb0ce4ae9d61b4ce5130082ba62"
+      "bytes": 300,
+      "sha256": "149c3c36e09528a8eef1c16d8fcc089f3894b0a8f0428ebff13f2aea43a6a1c5"
     },
     {
       "path": "data/local/extension_freeze.json",
@@ -249,48 +249,48 @@
     },
     {
       "path": "figures/figure_1_main_comparison.pdf",
-      "bytes": 36285,
-      "sha256": "3dd5189baff27ba70487b19d153ef4bffd7a95c04b630c33601969f03966e68f"
+      "bytes": 36241,
+      "sha256": "24f94b42db31b3ef17def2de82d7872999cb1c1a623758c687933c53fd3df0fb"
     },
     {
       "path": "figures/figure_1_main_comparison.png",
-      "bytes": 312546,
-      "sha256": "918c386f7b29bb7db471ae4352df838d12efa5bc4eb1281d23689d897a7de64d"
+      "bytes": 305423,
+      "sha256": "0a257b033fb9d4b7d3a9e0c8ef7d7e01d7c2de414674dcdc67d4ce47ddc54ccb"
     },
     {
       "path": "figures/figure_1_main_comparison.svg",
-      "bytes": 25598,
-      "sha256": "e0e0cbbd9c7e90477a4103b7149b22d92d8e82e36b8a8bf25296b5565f2c9594"
+      "bytes": 25589,
+      "sha256": "566550fbb46a51c3193dc9fccf6d465f7b8651db87d1058450d084539c0ff52f"
     },
     {
       "path": "figures/figure_2_failure_patterns.pdf",
-      "bytes": 35569,
-      "sha256": "163919fae5f9d367d3cd2dae011da13372f1c91ce229e673ae3893d528c44100"
+      "bytes": 35832,
+      "sha256": "17dc5be7a37636a511ed8435e69c4c28fbbf294b4897a67b2fdde6d80ea94d0c"
     },
     {
       "path": "figures/figure_2_failure_patterns.png",
-      "bytes": 324958,
-      "sha256": "566b30f05fefe018866fba167d756ad50ddfe8b3e71a6a773fc18daceae34781"
+      "bytes": 332389,
+      "sha256": "73b3fcb0240e5c9af692541602ca4b9e96040539065d007fd94bc77a80d99e23"
     },
     {
       "path": "figures/figure_2_failure_patterns.svg",
-      "bytes": 28128,
-      "sha256": "b7d746d09c53b06f9c2330d17efbdd9d460f7a42440f8a9ea3979d9816b4530f"
+      "bytes": 28182,
+      "sha256": "2291bb3b7ba940c585609adc84f328b4dccb49ae86562101582da8a311bf6902"
     },
     {
       "path": "figures/figure_3_paired_comparisons.pdf",
-      "bytes": 38416,
-      "sha256": "2fcb1957099732c6e762ea7ed804a15cb1659bcd31bd32e1e0cc03fb9e641593"
+      "bytes": 38401,
+      "sha256": "97f526fd1895c00f5214d31936fcf1bf4da88ecf557ae7fe77fbc5b5439d50f0"
     },
     {
       "path": "figures/figure_3_paired_comparisons.png",
-      "bytes": 253081,
-      "sha256": "ea97e654e74c11326d599841dd8d40c03132aa173ba843e8bdbf5171e0366260"
+      "bytes": 253315,
+      "sha256": "86243bc60611753f00b614030d7e1265ed33eeaf0a9d8ba4911a73d23b747242"
     },
     {
       "path": "figures/figure_3_paired_comparisons.svg",
-      "bytes": 111205,
-      "sha256": "c27d373c814532e85b12b52ad4aa14c65910c271d217aadc8d3a7bccef617bc0"
+      "bytes": 111111,
+      "sha256": "7ba0f7a219899dbaf4a4f68000b1f94577d04370016387037b4747c951e2fbd3"
     },
     {
       "path": "figures/figure_4_worked_report.pdf",
@@ -324,8 +324,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 3232946,
-      "sha256": "0ab0ffec621b537859df3770b8660f7e3bcf98b6e57b89cc88888eeb0899c1d9"
+      "bytes": 3233176,
+      "sha256": "032e15ea2aa2d337081799fb62d95709d871dbf7f41242414694738ef0b66630"
     },
     {
       "path": "lung/FREEZE.json",
@@ -454,13 +454,13 @@
     },
     {
       "path": "METHODS.md",
-      "bytes": 6599,
-      "sha256": "9f72cb6be0b6d14e4e1cc0742881a1c55a9cb7aada971d74945d33359284cf4a"
+      "bytes": 6717,
+      "sha256": "3b39bc321536c5a788e87d68262c8a4237b4b61d8cbf4f5f286b8643bbdaa4c9"
     },
     {
       "path": "Pathology_Abstract_and_Figures.pdf",
-      "bytes": 4219786,
-      "sha256": "ab9099fa1e1ac7df7b558dab43c519fadd0468f92be92e46bd15a2dabf376d49"
+      "bytes": 4221263,
+      "sha256": "265087878ab6a3889cb2b6205c5bb9edd2e886510e956dccdf0f529a131df004"
     },
     {
       "path": "poster/Pathology_BRAF_Figure_with_QR.pdf",
@@ -489,8 +489,8 @@
     },
     {
       "path": "RESULTS.csv",
-      "bytes": 367,
-      "sha256": "278510e6fd137ddfa5ca8bad71d32503e851b387caf495f7222e63420554fea9"
+      "bytes": 369,
+      "sha256": "e920cd6ab9e647e49934545513a49dd1e7f635ac98fa39de1eee66a923056cc7"
     },
     {
       "path": "REVIEW_AND_LIMITATIONS.md",
