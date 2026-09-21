@@ -1,0 +1,56 @@
+{
+  "main_families": 16,
+  "main_contrasts_recomputed": [
+    {
+      "wins": 66,
+      "losses": 1,
+      "effect_pp": 32.5,
+      "case_p": 9.215718466126788e-19,
+      "family_p": 0.03125
+    },
+    {
+      "wins": 67,
+      "losses": 0,
+      "effect_pp": 33.5,
+      "case_p": 1.3552527156068805e-20,
+      "family_p": 0.03125
+    },
+    {
+      "wins": 67,
+      "losses": 3,
+      "effect_pp": 32.0,
+      "case_p": 9.694461487914918e-17,
+      "family_p": 0.03125
+    },
+    {
+      "wins": 67,
+      "losses": 0,
+      "effect_pp": 33.5,
+      "case_p": 1.3552527156068805e-20,
+      "family_p": 0.03125
+    },
+    {
+      "wins": 67,
+      "losses": 1,
+      "effect_pp": 33.0,
+      "case_p": 4.675621868843738e-19,
+      "family_p": 0.03125
+    },
+    {
+      "wins": 133,
+      "losses": 0,
+      "effect_pp": 66.5,
+      "case_p": 1.8367099231598242e-40,
+      "family_p": 0.001953125
+    }
+  ],
+  "local_refinement": {
+    "wins": 50,
+    "losses": 0,
+    "effect_pp": 25.0,
+    "case_p": 1.7763568394002505e-15,
+    "family_p": 0.5
+  },
+  "all_matched": true,
+  "new_model_inference": false
+}

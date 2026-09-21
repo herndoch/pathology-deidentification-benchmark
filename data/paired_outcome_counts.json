@@ -1,0 +1,55 @@
+{
+  "category_order": [
+    "Both succeeded",
+    "Only LLM succeeded",
+    "Only rules succeeded",
+    "Neither succeeded"
+  ],
+  "rows": [
+    {
+      "arm": "enterprise_sol",
+      "counts": [
+        132,
+        66,
+        1,
+        1
+      ]
+    },
+    {
+      "arm": "cursor_sol",
+      "counts": [
+        133,
+        67,
+        0,
+        0
+      ]
+    },
+    {
+      "arm": "cursor_sonnet",
+      "counts": [
+        130,
+        67,
+        3,
+        0
+      ]
+    },
+    {
+      "arm": "cursor_gemini",
+      "counts": [
+        133,
+        67,
+        0,
+        0
+      ]
+    },
+    {
+      "arm": "cursor_grok",
+      "counts": [
+        132,
+        67,
+        1,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "a": "enterprise_sol",
+    "b": "local_v5",
+    "n": 200,
+    "wins": 66,
+    "losses": 1,
+    "effect_pp": 32.5,
+    "case_p": 9.215718466126788e-19,
+    "family_p": 0.03125,
+    "case_p_holm": 1.8431436932253575e-18,
+    "family_p_holm": 0.15625
+  },
+  {
+    "a": "cursor_sol",
+    "b": "local_v5",
+    "n": 200,
+    "wins": 67,
+    "losses": 0,
+    "effect_pp": 33.5,
+    "case_p": 1.3552527156068805e-20,
+    "family_p": 0.03125,
+    "case_p_holm": 6.776263578034403e-20,
+    "family_p_holm": 0.15625
+  },
+  {
+    "a": "cursor_sonnet",
+    "b": "local_v5",
+    "n": 200,
+    "wins": 67,
+    "losses": 3,
+    "effect_pp": 32.0,
+    "case_p": 9.694461487914918e-17,
+    "family_p": 0.03125,
+    "case_p_holm": 9.694461487914918e-17,
+    "family_p_holm": 0.15625
+  },
+  {
+    "a": "cursor_gemini",
+    "b": "local_v5",
+    "n": 200,
+    "wins": 67,
+    "losses": 0,
+    "effect_pp": 33.5,
+    "case_p": 1.3552527156068805e-20,
+    "family_p": 0.03125,
+    "case_p_holm": 6.776263578034403e-20,
+    "family_p_holm": 0.15625
+  },
+  {
+    "a": "cursor_grok",
+    "b": "local_v5",
+    "n": 200,
+    "wins": 67,
+    "losses": 1,
+    "effect_pp": 33.0,
+    "case_p": 4.675621868843738e-19,
+    "family_p": 0.03125,
+    "case_p_holm": 1.4026865606531214e-18,
+    "family_p_holm": 0.15625
+  },
+  {
+    "a": "local_v5",
+    "b": "local_philter",
+    "n": 200,
+    "wins": 133,
+    "losses": 0,
+    "effect_pp": 66.5,
+    "case_p": 1.8367099231598242e-40,
+    "family_p": 0.001953125,
+    "case_p_holm": 1.1020259538958945e-39,
+    "family_p_holm": 0.01171875
+  }
+]

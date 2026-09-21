@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-09-21T14:41:58.569956+00:00",
+  "reason": "User requested 200 distinct local pairs on 2026-09-21",
+  "original_pairs": 160,
+  "additional_pairs": 40,
+  "total_pairs": 200,
+  "patterns": 8,
+  "pairs_per_pattern": 25,
+  "extra_generator_indices": [
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "methods_unchanged": true,
+  "post_hoc_size_extension": true,
+  "new_hosted_calls": 0,
+  "source_hashes": {
+    "validation_candidate_v1\\gold_proposed.json": "f9c1db40483b4204bbd3300fe53e0d89fb32a48e3025db3ce76c96fbfdace95f",
+    "METHOD_FREEZE.json": "03033a1b765f29ebd52db132193a43b32393c9926885f74054a25ce3dd84b02d",
+    "generate_review_set.py": "3dcea9b93fe5bf95b154736505a399386cb72659c9db166cf2859f39ed349d48",
+    "local_validation_v1\\philter\\responses.json": "b95db8e7520acf42ec1cc79eac86a2adb487a9fa8a2c45aa688fbae615f94b1c",
+    "local_validation_v1\\v5\\responses.json": "99505585f7387566605eb7e2373d6909b80577e3d323a18981dbd1139930fef8",
+    "local_validation_v1\\v6\\responses.json": "1d160b76ab90984f8adae793767bcdb66b0a8df78af13def28c3e940eb2a30ad"
+  },
+  "extra_gold_sha256": "8e4b37078a34b51f5fdb256ee95c67de50ad4a7a7d3fe17aae7a9d418639179c",
+  "combined_gold_sha256": "c222964e51320cc255d253206d607c935253d4f6a7dd558ffa05daaa868ce6f0",
+  "extension_code_sha256": "41b97af8f5b93083a80f379eb327c5f6d3158d90f8824731c113af4feb1f235e"
+}

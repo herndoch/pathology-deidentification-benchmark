@@ -1,0 +1,9 @@
+{
+  "local_philter": "Institution-developed pipeline",
+  "local_v5": "Context-aware rules",
+  "enterprise_sol": "GPT-5.6 Sol: enterprise",
+  "cursor_sol": "GPT-5.6 Sol: developer-tool",
+  "cursor_sonnet": "Claude Sonnet 5",
+  "cursor_gemini": "Gemini 3.1 Pro",
+  "cursor_grok": "Grok 4.6"
+}

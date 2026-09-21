@@ -1,0 +1,49 @@
+[
+  {
+    "arm": "philter",
+    "identity_n": 200,
+    "identity_exposed": 0,
+    "clinical_n": 200,
+    "clinical_preserved": 0,
+    "paired_n": 200,
+    "paired_narrow_success": 0,
+    "identity_values_broad_residual": 25,
+    "utility_facts_total": 1700,
+    "utility_facts_retained": 1700,
+    "exposure_by_family": {}
+  },
+  {
+    "arm": "v5",
+    "identity_n": 200,
+    "identity_exposed": 100,
+    "clinical_n": 200,
+    "clinical_preserved": 200,
+    "paired_n": 200,
+    "paired_narrow_success": 100,
+    "identity_values_broad_residual": 100,
+    "utility_facts_total": 1700,
+    "utility_facts_retained": 1700,
+    "exposure_by_family": {
+      "wrapped_adjacent_result": 25,
+      "parenthetical_inline": 25,
+      "separated_footer": 25,
+      "qualified_result": 25
+    }
+  },
+  {
+    "arm": "v6",
+    "identity_n": 200,
+    "identity_exposed": 50,
+    "clinical_n": 200,
+    "clinical_preserved": 200,
+    "paired_n": 200,
+    "paired_narrow_success": 150,
+    "identity_values_broad_residual": 50,
+    "utility_facts_total": 1700,
+    "utility_facts_retained": 1700,
+    "exposure_by_family": {
+      "parenthetical_inline": 25,
+      "qualified_result": 25
+    }
+  }
+]

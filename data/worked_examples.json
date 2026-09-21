@@ -1,0 +1,40 @@
+[
+  {
+    "cohort": "local",
+    "case": "V01000",
+    "title": "Across a blank line: corrected by refinement"
+  },
+  {
+    "cohort": "local",
+    "case": "V04000",
+    "title": "Separated footer: corrected by refinement"
+  },
+  {
+    "cohort": "local",
+    "case": "V03000",
+    "title": "Inside parentheses: failure persists"
+  },
+  {
+    "cohort": "local",
+    "case": "V07000",
+    "title": "Modified identifier label: failure persists"
+  },
+  {
+    "cohort": "main",
+    "case": "p4_mrn_like_clinical_12",
+    "title": "GPT-5.6 Sol: enterprise: identifying digits retained",
+    "arm": "enterprise_sol"
+  },
+  {
+    "cohort": "main",
+    "case": "p4_reverse_table_11",
+    "title": "Claude Sonnet 5: identifying digits retained",
+    "arm": "cursor_sonnet"
+  },
+  {
+    "cohort": "main",
+    "case": "p4_tabular_pipe_15",
+    "title": "Grok 4.6: identifying digits retained",
+    "arm": "cursor_grok"
+  }
+]

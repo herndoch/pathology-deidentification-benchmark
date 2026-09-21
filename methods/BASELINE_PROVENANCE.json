@@ -1,0 +1,16 @@
+{
+  "method": "UCSF Philter Delta compatibility adapter; final include-map complement to ASCII asterisk-change spans",
+  "config_sha256": "d1aa42e3b377eda880c6269d3c28ee4c2d733c69a737554bf4814b6926360be1",
+  "philter_sha256": "08a6bb848fbc1e0dba497593099686c7e802891c5efb53c6689f8a25a76008e2",
+  "regex_compatibility": "global inline flags normalized to front for Python3.12; fixture equivalence required for config changes",
+  "supported_pattern_types": [
+    "pos_matcher",
+    "regex",
+    "regex_context",
+    "set"
+  ],
+  "asterisk_semantics": "included intervals preserved; outside them spans mark only upstream ASCII asterisk changes [A-Za-z0-9], preserving punctuation and literal asterisk",
+  "upstream_url": "https://github.com/BCHSI/philter-ucsf",
+  "synthetic_only": true,
+  "adapter_sha256": "98378837760e7e4a58b3ff6abcd8ac912a322e9bc3512e5e0701daa9ceea634e"
+}

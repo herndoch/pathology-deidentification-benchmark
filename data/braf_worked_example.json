@@ -1,0 +1,60 @@
+{
+  "document_id": "doc_000462",
+  "source": "Earlier synthetic development corpus; outside both 200-pair experiments",
+  "document": {
+    "case_id": "case_000216",
+    "document_id": "doc_000462",
+    "report_type": "molecular_ancillary",
+    "accession": "31ML.100803",
+    "text": "MOLECULAR PATHOLOGY REPORT\nName: Mivin Ravven\nMRN: 14727160\nDOB: 1960-02-07\nAccession: 31ML.100803\nParent Pathology Accession: SK31-979432\nReported: 10/30/2031\nOrdering Provider: Varel Velver\n\nTEST\nBRAF targeted assay\n\nSPECIMEN INFORMATION\nSpecimen: Skin, shoulder\nSpecimen Part: A\nBlock: A1\n\nRESULT\nBRAF p.V600E is detected.\n\nINTERPRETATION\nThe result is interpreted in the context of the associated pathology specimen. Clinical significance depends on tumor type, disease context, and the validated scope of the assay. Findings outside the validated target regions are not assessed.\n\nQUALITY / COVERAGE\nQuality metrics are within validated limits.\n\nMETHOD\nTargeted next-generation sequencing of validated genomic regions.\n\nLIMITATIONS\nOnly the validated targets and alteration classes for this assay are assessed. A negative or limited result does not exclude alterations outside the tested scope.\nReport finalized by Vania Merver, MD on 10/30/2031 at 13:00\nMivin Ravven | 14727160 | 31ML.100803 | Page 1 of 1",
+    "status": "detected",
+    "report_date": "10/30/2031",
+    "specimen_block_relationships": [
+      {
+        "relationship": "molecular_block_explicit_and_pathology_supported",
+        "parent_document_id": "doc_000461",
+        "block": "A1",
+        "evidence": "explicit_in_both_reports"
+      }
+    ],
+    "parent_document_id": "doc_000461",
+    "test": "BRAF targeted assay"
+  },
+  "outputs": {
+    "philter": {
+      "text": "MOLECULAR PATHOLOGY REPORT\nName: ***** ******\n***: ********\nDOB: ****-**-**\nAccession: 31ML.******\nParent Pathology Accession: ****-******\nReported: **/**/****\nOrdering Provider: ***** ******\n\nTEST\nBRAF targeted assay\n\nSPECIMEN INFORMATION\nSpecimen: Skin, shoulder\nSpecimen Part: A\nBlock: A1\n\nRESULT\nBRAF p.***** is detected.\n\nINTERPRETATION\nThe result is interpreted in the context of the associated pathology specimen. Clinical significance depends on tumor type, disease context, and the validated scope of the assay. Findings outside the validated target regions are not assessed.\n\nQUALITY / COVERAGE\nQuality metrics are within validated limits.\n\nMETHOD\nTargeted next-generation sequencing of validated genomic regions.\n\nLIMITATIONS\nOnly the validated targets and alteration classes for this assay are assessed. A negative or limited result does not exclude alterations outside the tested scope.\nReport finalized by ***** ******, MD on **/**/**** at 13:00\n***** ****** | ******** | 31ML.****** | Page 1 of 1",
+      "source_sha256": "e18ee7553621f5c29930c7db7785d6cd0dfe7db5192fe3701b69a1f459841cfe"
+    },
+    "philter_plus_context": {
+      "text": "MOLECULAR PATHOLOGY REPORT\nName: ***** ******\n***: ********\nDOB: ****-**-**\nAccession: 31ML.******\nParent Pathology Accession: ****-******\nReported: **/**/****\nOrdering Provider: ***** ******\n\nTEST\nBRAF targeted assay\n\nSPECIMEN INFORMATION\nSpecimen: Skin, shoulder\nSpecimen Part: A\nBlock: A1\n\nRESULT\nBRAF p.V600E is detected.\n\nINTERPRETATION\nThe result is interpreted in the context of the associated pathology specimen. Clinical significance depends on tumor type, disease context, and the validated scope of the assay. Findings outside the validated target regions are not assessed.\n\nQUALITY / COVERAGE\nQuality metrics are within validated limits.\n\nMETHOD\nTargeted next-generation sequencing of validated genomic regions.\n\nLIMITATIONS\nOnly the validated targets and alteration classes for this assay are assessed. A negative or limited result does not exclude alterations outside the tested scope.\nReport finalized by ***** ******, MD on **/**/**** at 13:00\n***** ****** | ******** | 31ML.****** | Page 1 of 1",
+      "source_sha256": "14f8d44950750445b373353b758fdce95eee5e1e3d96cfad62fbb7b38c176e3b"
+    }
+  },
+  "excerpt_fields": [
+    {
+      "name": "Name: Mivin Ravven",
+      "mrn": "MRN: 14727160",
+      "specimen": "Specimen: Skin, shoulder",
+      "block": "Block: A1",
+      "test": "BRAF targeted assay",
+      "result": "BRAF p.V600E is detected."
+    },
+    {
+      "name": "Name: ***** ******",
+      "mrn": "***: ********",
+      "specimen": "Specimen: Skin, shoulder",
+      "block": "Block: A1",
+      "test": "BRAF targeted assay",
+      "result": "BRAF p.***** is detected."
+    },
+    {
+      "name": "Name: ***** ******",
+      "mrn": "***: ********",
+      "specimen": "Specimen: Skin, shoulder",
+      "block": "Block: A1",
+      "test": "BRAF targeted assay",
+      "result": "BRAF p.V600E is detected."
+    }
+  ],
+  "example_selection": "Illustrative molecular over-redaction; not a frequency estimate."
+}

@@ -1,0 +1,17 @@
+{
+  "contrasts": [
+    {
+      "wins": 50,
+      "losses": 0,
+      "effect_pp": 25.0,
+      "case_p": 1.7763568394002505e-15,
+      "family_p": 0.5,
+      "a": "v6",
+      "b": "v5",
+      "cohort": "local_extended_200",
+      "case_exact_mcnemar_p": 1.7763568394002505e-15,
+      "n": 200,
+      "comparison_scope": "Single exploratory refinement contrast on the expanded local set; original 160-pair analyses preserved separately."
+    }
+  ]
+}

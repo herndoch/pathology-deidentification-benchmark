@@ -1,0 +1,86 @@
+[
+  {
+    "arm": "enterprise_sol",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 2,
+    "clinical_n": 200,
+    "clinical_retained": 200,
+    "complete_pairs": 200,
+    "pair_success": 198,
+    "supplemental_records": 0,
+    "unresolved": []
+  },
+  {
+    "arm": "cursor_sol",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 0,
+    "clinical_n": 200,
+    "clinical_retained": 200,
+    "complete_pairs": 200,
+    "pair_success": 200,
+    "supplemental_records": 0,
+    "unresolved": []
+  },
+  {
+    "arm": "cursor_gemini",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 0,
+    "clinical_n": 200,
+    "clinical_retained": 200,
+    "complete_pairs": 200,
+    "pair_success": 200,
+    "supplemental_records": 0,
+    "unresolved": []
+  },
+  {
+    "arm": "cursor_sonnet",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 3,
+    "clinical_n": 200,
+    "clinical_retained": 200,
+    "complete_pairs": 200,
+    "pair_success": 197,
+    "supplemental_records": 104,
+    "unresolved": []
+  },
+  {
+    "arm": "cursor_grok",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 1,
+    "clinical_n": 200,
+    "clinical_retained": 200,
+    "complete_pairs": 200,
+    "pair_success": 199,
+    "supplemental_records": 167,
+    "unresolved": []
+  },
+  {
+    "arm": "local_philter",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 11,
+    "clinical_n": 200,
+    "clinical_retained": 0,
+    "complete_pairs": 200,
+    "pair_success": 0,
+    "supplemental_records": 0,
+    "unresolved": []
+  },
+  {
+    "arm": "local_v5",
+    "target_pairs": 200,
+    "identity_n": 200,
+    "identity_exposed": 30,
+    "clinical_n": 200,
+    "clinical_retained": 159,
+    "complete_pairs": 200,
+    "pair_success": 133,
+    "supplemental_records": 0,
+    "unresolved": []
+  }
+]
