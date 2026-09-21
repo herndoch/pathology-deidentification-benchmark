@@ -32,8 +32,6 @@ The script uses only Python's standard library. No installation, account, creden
 
 | File or folder | What it contains |
 |---|---|
-| [ABSTRACT.md](ABSTRACT.md) | Structured conference draft |
-| [Pathology_Abstract_and_Figures.pdf](Pathology_Abstract_and_Figures.pdf) | Abstract and four vector figures |
 | [METHODS.md](METHODS.md) | Selection, endpoints, supplementation and limitations |
 | [REVIEW_AND_LIMITATIONS.md](REVIEW_AND_LIMITATIONS.md) | Internal critique from clinical, informatics, molecular and statistical perspectives |
 | [TECHNICAL_PROVENANCE.md](TECHNICAL_PROVENANCE.md) | Model labels, baseline attribution and exact scope of reproducibility |
