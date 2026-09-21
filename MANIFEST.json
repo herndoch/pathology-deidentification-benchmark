@@ -13,14 +13,9 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ABSTRACT.md",
-      "bytes": 2167,
-      "sha256": "b2ecbf7eced5b3dbfd13cb93233a975a2e904f2e3d20a97dbaa3b631ffd4f8f8"
-    },
-    {
       "path": "ALL_FINDINGS.md",
-      "bytes": 13793,
-      "sha256": "a35b2fd9480444f6521325d7b64b6a49fc47a20f7d85bc91616aaa5ef3ea63d7"
+      "bytes": 11658,
+      "sha256": "ad3a7101f78ac861faa80a0d29a1a7ae099161c15455cdf19c3f1146a13e0eec"
     },
     {
       "path": "audit/frozen_scorer.py",
@@ -329,8 +324,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 3237075,
-      "sha256": "56f9c50460e852d749126ccfce095113fa20ae4b48a84f6c0088c9dd1f98f845"
+      "bytes": 3232008,
+      "sha256": "0c95e620add01004a7abd9e18e8c8530740cdc8a7853d44333500f9cc8f40371"
     },
     {
       "path": "lung/FREEZE.json",
@@ -463,11 +458,6 @@
       "sha256": "3b39bc321536c5a788e87d68262c8a4237b4b61d8cbf4f5f286b8643bbdaa4c9"
     },
     {
-      "path": "Pathology_Abstract_and_Figures.pdf",
-      "bytes": 4298725,
-      "sha256": "93b92f187859fa489143155336b7d70fc08d9c44bc63981ff72f15c099a7f6f4"
-    },
-    {
       "path": "poster/Pathology_BRAF_Figure_with_QR.pdf",
       "bytes": 87732,
       "sha256": "75dd395d44664c0d670e0192072f31c32b2340be422d03c38f6e184a1a0be4d8"
@@ -489,8 +479,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5352,
-      "sha256": "373f8e2e426d4c944ef7239a89317f449a641d70d881f33fe737ee2118c3c412"
+      "bytes": 5227,
+      "sha256": "edfbc4463d9b6aeb11ccd7e07f8c126be925250a47dd552a674f534cf7537e4f"
     },
     {
       "path": "RESULTS.csv",

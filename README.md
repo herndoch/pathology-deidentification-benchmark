@@ -1,6 +1,6 @@
 # Preserving molecular information during pathology report de-identification
 
-**[Open the public research website](https://herndoch.github.io/pathology-deidentification-benchmark/)** | [Abstract and figures](https://herndoch.github.io/pathology-deidentification-benchmark/Pathology_Abstract_and_Figures.pdf) | [Poster QR assets](poster/)
+**[Open the public research website](https://herndoch.github.io/pathology-deidentification-benchmark/)** | [Poster QR assets](poster/)
 
 A synthetic methods benchmark: preserve the molecular expression in one report, remove a similarly formatted identifying value in its paired control.
 
