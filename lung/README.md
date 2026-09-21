@@ -6,4 +6,4 @@ The transcript and T790M nomenclature were checked against [NCBI ClinVar](https:
 
 `inputs.json` is the frozen source text. `outputs.json` contains exact newly computed masks from the unchanged institution-developed pipeline, context-aware rules, and refined rules. No hosted LLM was run on this illustrative case. Eight full-size JPEGs show all original/output combinations; the six-panel collage shows original, institution-developed, and refined methods.
 
-EGFR p.T790M and p.L858R are useful molecular findings to retain. Names and medical-record numbers are identifying fields to mask. Colored highlighting does not alter source text or saved output. The examples are excluded from all quantitative denominators.
+EGFR p.T790M and p.L858R are useful molecular findings to retain. Names and medical-record numbers are identifying fields to mask. Repeated synthetic laboratory/banner lines and presentation footers are omitted from the report images, and blank margins are cropped. Frozen source text and saved outputs remain unchanged. Colored highlighting does not alter source text or saved output. The examples are excluded from all quantitative denominators.

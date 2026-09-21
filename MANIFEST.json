@@ -309,18 +309,18 @@
     },
     {
       "path": "figures/figure_5_lung_collage.pdf",
-      "bytes": 3631813,
-      "sha256": "a5d0c12873050825ba523dd47c6c86ac65ad817228a952eb77d450d8e6552054"
+      "bytes": 3851293,
+      "sha256": "6c9f541e85bd25d93f5720ca7dd79865b7db583589686c13b33d4279f6ac5dfc"
     },
     {
       "path": "figures/figure_5_lung_collage.png",
-      "bytes": 3347688,
-      "sha256": "8bf1cff9c23b9c26555c78f25708f67ded24badd3b37600994f99a8b0cf9d344"
+      "bytes": 4069482,
+      "sha256": "d6f41ac90f2f768205e4291f1b4a4bff5719e48a3bc3b5c8a6ab2d1ab31b15a7"
     },
     {
       "path": "figures/figure_5_lung_collage.svg",
-      "bytes": 5315701,
-      "sha256": "5b90a396261c293299c0df1435ed2071d9066aabde0faa5b9c9da1598630f193"
+      "bytes": 5634371,
+      "sha256": "a4d5c8c371022183384f798cae094ad1ce9768e6bc19d509b99fd737802cf4f8"
     },
     {
       "path": "index.html",
@@ -339,63 +339,63 @@
     },
     {
       "path": "lung/LUNG-MP-01_original.jpg",
-      "bytes": 446650,
-      "sha256": "45d160034641ede847531df19dd16e1f994b462b4b47d11dabaa53cd103d611a"
+      "bytes": 391435,
+      "sha256": "bede122552205df033102a867a6a40c1eb92855c325c8b8a14e16e047687b6e2"
     },
     {
       "path": "lung/LUNG-MP-01_philter.jpg",
-      "bytes": 435400,
-      "sha256": "32a4d6554d2464af06848da59deb80095f50f469aa9364b8e02eeacde9437f95"
+      "bytes": 382052,
+      "sha256": "07e1b1e6cb5b4db8636908bc50151c83f7d19833878a20979431d54394f17e2a"
     },
     {
       "path": "lung/LUNG-MP-01_v5.jpg",
-      "bytes": 428011,
-      "sha256": "7183810de75e76a8d5ad78a29c768b25e0d4e8a58b76787cbcff8625c08d4074"
+      "bytes": 374622,
+      "sha256": "e1f7761016ca94f9803102349f2b9bd8e53ad6028218d45131022d5459af5405"
     },
     {
       "path": "lung/LUNG-MP-01_v6.jpg",
-      "bytes": 425017,
-      "sha256": "f30eda1256ec23f7e925b38100046e605bbcefdc625f205c029ea18b2e4d817d"
+      "bytes": 371620,
+      "sha256": "7e7ba1bce657b775ff75c5e0ab8d45776cff4c739073c96f3a008a6b9512cc04"
     },
     {
       "path": "lung/LUNG-SP-01_original.jpg",
-      "bytes": 364757,
-      "sha256": "c2560b6e62afb9a2d5b344abaee1e5a9db37cb469d1817ad70af140b013bb94a"
+      "bytes": 304202,
+      "sha256": "7197a14ec8aef6f379c3c8e3f0b663e0312229a0dbbb25887f222097214b1868"
     },
     {
       "path": "lung/LUNG-SP-01_philter.jpg",
-      "bytes": 354424,
-      "sha256": "96ab7a363987cb9ac07e3a5e3b3d5de35a693be8e49b9418a9167844ea07cd9e"
+      "bytes": 296745,
+      "sha256": "89181b9d6f490566cb4b0d035092d00e8c76bc98f6b64e993eddd7e0cef154b6"
     },
     {
       "path": "lung/LUNG-SP-01_v5.jpg",
-      "bytes": 347276,
-      "sha256": "0dcfbc6c3c0b23e2a23094ed077bd6c4c4a1eb4e16c82d1a838f9063e667e76c"
+      "bytes": 291457,
+      "sha256": "4dae117fad0b7a500fc450649e95a30bb28c0aaaa7dc0818fc5a3e7825d7cefb"
     },
     {
       "path": "lung/LUNG-SP-01_v6.jpg",
-      "bytes": 345040,
-      "sha256": "82de1099cf3659d7ebdbb2e4af8078d23dd839171c670bf750f2b24d65d4ad98"
+      "bytes": 286511,
+      "sha256": "d73e02ce37828fc5208f6daacbf61a614910f0d85a05611639d8c16aec82c2a7"
     },
     {
       "path": "lung/lung_report_collage.jpg",
-      "bytes": 1075545,
-      "sha256": "875ee2801c6715fe29f031b7450fc61e26a5e0c08a89dd5489bbc17ab53a0a33"
+      "bytes": 1063148,
+      "sha256": "ef3fb72e72e8d0dbcf514283aa72b82c9acc02bc3a4c89610e39c47f46bd8711"
     },
     {
       "path": "lung/lung_report_collage.pdf",
-      "bytes": 3631813,
-      "sha256": "a5d0c12873050825ba523dd47c6c86ac65ad817228a952eb77d450d8e6552054"
+      "bytes": 3851293,
+      "sha256": "6c9f541e85bd25d93f5720ca7dd79865b7db583589686c13b33d4279f6ac5dfc"
     },
     {
       "path": "lung/lung_report_collage.png",
-      "bytes": 3347688,
-      "sha256": "8bf1cff9c23b9c26555c78f25708f67ded24badd3b37600994f99a8b0cf9d344"
+      "bytes": 4069482,
+      "sha256": "d6f41ac90f2f768205e4291f1b4a4bff5719e48a3bc3b5c8a6ab2d1ab31b15a7"
     },
     {
       "path": "lung/lung_report_collage.svg",
-      "bytes": 5315701,
-      "sha256": "5b90a396261c293299c0df1435ed2071d9066aabde0faa5b9c9da1598630f193"
+      "bytes": 5634371,
+      "sha256": "a4d5c8c371022183384f798cae094ad1ce9768e6bc19d509b99fd737802cf4f8"
     },
     {
       "path": "lung/outputs.json",
@@ -404,8 +404,8 @@
     },
     {
       "path": "lung/README.md",
-      "bytes": 1400,
-      "sha256": "909adae0a74701868d0ba598bc88f693ffb59cd491ad9187a86520d429212fd7"
+      "bytes": 1590,
+      "sha256": "2dad62d7c1d1d149dd0a00bbc0a13e4e54a49bbe75006e866a144a1acca16ecb"
     },
     {
       "path": "methods/BASELINE_PROVENANCE.json",
@@ -459,8 +459,8 @@
     },
     {
       "path": "Pathology_Abstract_and_Figures.pdf",
-      "bytes": 3988806,
-      "sha256": "a30e9e3d117174a66aa51000b02bd0f684552ead5437fff8c3b514e0f7181b2f"
+      "bytes": 4205124,
+      "sha256": "34ac4943f28ea4e2b1bcc7caf544a1c93f3b2e896df02c1f89f347d21a3afbc5"
     },
     {
       "path": "poster/Pathology_BRAF_Figure_with_QR.pdf",
