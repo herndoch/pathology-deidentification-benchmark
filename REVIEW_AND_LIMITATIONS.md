@@ -72,3 +72,8 @@ The author must confirm authorship, affiliations, funding/conflicts, rights to r
 ## Clarification: the BRAF illustration
 
 The archived BRAF p.V600E example demonstrates unnecessary removal of useful molecular information. The variant is not designated as a patient identifier in this example; the synthetic name and medical-record number are identifying fields. Identifier leakage and molecular over-redaction are separate endpoints. Neither the example nor this benchmark measures genomic re-identification risk.
+
+
+## Lung illustration and matched refinement supplement
+
+The front-facing example is now a detailed synthetic lung core biopsy and linked EGFR molecular report. Exact new local masks are displayed; no LLM result is manufactured. Both reports are outside the quantitative cohorts. The supplemental refined-rule evaluation uses the original 400 main report texts and baseline masks with frozen method code, yielding joint success in 156/200 pairs. It is post hoc and retained separately from the original seven approaches. Pair-level p-values and pattern-level sensitivity results are both reported.

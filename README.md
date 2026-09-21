@@ -50,3 +50,10 @@ The script uses only Python's standard library. No installation, account, creden
 The 200 main pairs are unique; no duplication rounds the denominator. They were selected for shared output availability, and missing/non-aligned Sonnet and Grok records underwent supplementary collection. The design does not separate model, access-route and batch-size effects. A zero on the narrow tested-digit endpoint is not comprehensive de-identification. The reports are deliberately constructed and not a clinical prevalence sample.
 
 Synthetic generation, code, analysis, writing and internal review were AI-assisted. No independent specialist adjudication, external peer review, reader-comprehension study or downstream clinical benefit is claimed. The contribution is inspectable methods evidence, not an assertion that all local processing is futile. Authors remain responsible for final claims and submission.
+
+
+## Matched refined rules and detailed lung illustration
+
+The supplementary frozen refined method achieved both objectives on 156/200 of the same main pairs. All five LLM comparisons against refined rules have paired adjusted p<0.001; accounting for shared report patterns gives adjusted p=0.375. See [the supplement](data/refined_matched/METHODS.md) for complete methods and uncertainty. The original seven-arm results remain unchanged.
+
+[Detailed lung report JPEGs and collage](lung/README.md) show two newly authored fictional reports and exact local redactions. These are illustrative only, not additional benchmark cases. The comparison now includes 3,200 main outputs plus 1,200 separate local outputs; the six new illustrative local outputs are kept separate.

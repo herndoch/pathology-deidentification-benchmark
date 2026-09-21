@@ -68,5 +68,23 @@ def main():
  refinement=contrast(local_pairs['v6'],local_pairs['v5']);assert refinement['family_p']==.5 and refinement['effect_pp']==25
  saved_refinement=read(ROOT/'data/local/statistics.json')['contrasts'][0]
  assert all(isclose(v,saved_refinement[k],rel_tol=1e-12,abs_tol=1e-50) for k,v in refinement.items())
- print(json.dumps({'status':'PASS','main':results,'separate_local':local,'main_contrasts_and_Holm_adjustments_match':True,'local_refinement':refinement,'new_model_calls':0},indent=2))
+ matched=ROOT/'data/refined_matched'
+ if matched.exists():
+  s,p,rs=outcomes(gold,read(matched/'responses.json'),'local_v6');assert s==read(matched/'SUMMARY.json')
+  saved={r['id']:r for r in read(matched/'per_document.json')}
+  for r in rs:assert all(r[k]==saved[r['id']][k] for k in r)
+  data['local_v6']=p;results['local_v6_supplementary']=s
+  supplemental=read(matched/'STATISTICS.json')['contrasts'];fresh=[]
+  for t in supplemental:
+   c=contrast(data[t['a']],data[t['b']]);assert all(isclose(c[k],t[k],rel_tol=1e-12,abs_tol=1e-50) for k in c);fresh.append(c)
+  for key in ['case_p','family_p']:
+   running=0
+   for rank,i in enumerate(sorted(range(len(supplemental)),key=lambda i:fresh[i][key])):
+    running=max(running,min(1,(len(supplemental)-rank)*fresh[i][key]));assert isclose(running,supplemental[i][key+'_holm'],rel_tol=1e-12,abs_tol=1e-50)
+ lung=ROOT/'lung'
+ if lung.exists():
+  inputs={d['id']:d['text'] for d in read(lung/'inputs.json')}
+  for arm,answers in read(lung/'outputs.json').items():
+   for id,text in answers.items():assert len(text)==len(inputs[id]) and all(a==b or b=='*' for a,b in zip(inputs[id],text))
+ print(json.dumps({'status':'PASS','main':results,'separate_local':local,'main_contrasts_and_Holm_adjustments_match':True,'supplementary_refined_contrasts_match':matched.exists(),'local_refinement':refinement,'new_model_calls':0},indent=2))
 if __name__=='__main__':main()

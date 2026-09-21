@@ -2,7 +2,10 @@
   "release": "conference-review-20260921",
   "synthetic_only": true,
   "new_hosted_model_inference": false,
-  "new_local_reports_evaluated": 80,
+  "earlier_extension_new_reports": 80,
+  "matched_refinement_existing_reports": 400,
+  "new_illustrative_reports": 2,
+  "illustrative_local_outputs": 6,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,13 +14,13 @@
     },
     {
       "path": "ABSTRACT.md",
-      "bytes": 2061,
-      "sha256": "c57986454dc42ca748277a3dbadb856fe6f7c41710d6284dc12a978c62efc26b"
+      "bytes": 2197,
+      "sha256": "16a314b766ffa4fa249a64c5615c7eb2fac88079cbeb91b5a01fa50c98fe0c20"
     },
     {
       "path": "ALL_FINDINGS.md",
-      "bytes": 11727,
-      "sha256": "c70305272932e8d25684c405e7b0fdfab08f69aa857a847e68e755c6ecc05446"
+      "bytes": 13703,
+      "sha256": "2aeba3c352e398a461aa036c81cb4a93a5fc27f414511dad6076d593ce93a745"
     },
     {
       "path": "audit/frozen_scorer.py",
@@ -26,8 +29,8 @@
     },
     {
       "path": "audit/reproduce.py",
-      "bytes": 5134,
-      "sha256": "fb91d5cf3f2cdabc9dd8f5a57bd878d2fedef6a665d79cec803345deb4cc3524"
+      "bytes": 6326,
+      "sha256": "72b8c0d109c9f61dae0c1b26df7c623141a027255d41d7aa16f7bd46a36d5a1c"
     },
     {
       "path": "CONFERENCE_READINESS.md",
@@ -200,6 +203,41 @@
       "sha256": "56302d59ea0b440be9e73070d67a3c4620bf8326cdf4f7a2697b71117d08325b"
     },
     {
+      "path": "data/refined_matched/COMPLETION.json",
+      "bytes": 184,
+      "sha256": "532c9b109ae3d7078bebd1dc64d636db5d06734116ad99b8cae7e64d98a4fa14"
+    },
+    {
+      "path": "data/refined_matched/FREEZE.json",
+      "bytes": 1018,
+      "sha256": "1aa97f047f960c7728044b35b27d7c7812d3b7afb7902e0873703c8222d22be9"
+    },
+    {
+      "path": "data/refined_matched/METHODS.md",
+      "bytes": 1795,
+      "sha256": "6b80ed991ac0816192153ed982a123601e97fac38b6004604b907eefd8a8c82d"
+    },
+    {
+      "path": "data/refined_matched/per_document.json",
+      "bytes": 314108,
+      "sha256": "af8b9b5bf857906d094a745309e1e605cffff036bf06f1fb269a5aa04bc7393b"
+    },
+    {
+      "path": "data/refined_matched/responses.json",
+      "bytes": 148692,
+      "sha256": "452afd913628f92547e6d9c82b6ad5d55f402ab427f1d1017c42cc910c9de2bc"
+    },
+    {
+      "path": "data/refined_matched/STATISTICS.json",
+      "bytes": 1872,
+      "sha256": "0d86b13636f4bc5088feb667c3754c5b02ecae886828beea79be1bc7d72a6bbc"
+    },
+    {
+      "path": "data/refined_matched/SUMMARY.json",
+      "bytes": 108,
+      "sha256": "1150e6decdb4b75592b2ab399e3805619093a259e89922ff4c9162415ab3994f"
+    },
+    {
       "path": "data/TASK_PROMPT.txt",
       "bytes": 1480,
       "sha256": "ffadbe1bf9e611b97a2f01e5554268c0453746cfbfe64befd7d1a895e9525096"
@@ -211,23 +249,23 @@
     },
     {
       "path": "figures/figure_1_main_comparison.pdf",
-      "bytes": 34608,
-      "sha256": "105d73a517a59ad88fcb5379e8c49c325aeeaa4a2919fea84f27315dbde94562"
+      "bytes": 35421,
+      "sha256": "78b7eee11c51923b5b2e42e7fff534e25f8b4cb55e9756409dd486d2624a829a"
     },
     {
       "path": "figures/figure_1_main_comparison.png",
-      "bytes": 282278,
-      "sha256": "0294308e45ae9789e4864bec5b542758bf725f50b580e1fa26525b9ddfb5cc34"
+      "bytes": 310935,
+      "sha256": "a8a8b834d18564c2fa8013ad15174fdb936cdd780a46f2f49dc45047ef9d3785"
     },
     {
       "path": "figures/figure_1_main_comparison.svg",
-      "bytes": 23328,
-      "sha256": "7ede981f9d2584fe912be3aea546e7531bb5fff723e41efccf2dacee46d5fc5c"
+      "bytes": 25594,
+      "sha256": "e219b18b8969f95f6328f92655c38347fe0e52912ee97c8a7c6d17e02a3adcf6"
     },
     {
       "path": "figures/figure_2_failure_patterns.pdf",
       "bytes": 34906,
-      "sha256": "2ffa6625e085b91a85587bdc9d1db52e9397a707d9ab4a6b3324ee103cae04b2"
+      "sha256": "bb6f53df006ff74be55c3e9499ae174318c2c86b874d048da1986ffd6420a04f"
     },
     {
       "path": "figures/figure_2_failure_patterns.png",
@@ -237,22 +275,22 @@
     {
       "path": "figures/figure_2_failure_patterns.svg",
       "bytes": 28125,
-      "sha256": "5b3caa92fa72cabd60b013ec8b3be5ba990ff03eaf68c0a1231401a0d1a3f563"
+      "sha256": "e5ec2f5fdde5ecc5c64be6ce17c6f701a15d9a24205bbed036476045abfd8900"
     },
     {
       "path": "figures/figure_3_paired_comparisons.pdf",
-      "bytes": 31127,
-      "sha256": "b0da26983de785029918e6fe646f8df1f0b379aed40c601d8d656b451ebe177c"
+      "bytes": 31430,
+      "sha256": "7802bd7ee6b91e8568f4a96253f11b8f78a5d8b3262e0406e95515eb72b71965"
     },
     {
       "path": "figures/figure_3_paired_comparisons.png",
-      "bytes": 301422,
-      "sha256": "282465dfcc66a8d07f024897c8117fa39f2d892cd1ee29b3d8cb4635e4b8240f"
+      "bytes": 201124,
+      "sha256": "7bb0afd443a35b631aad0586ca5e39f987c4462cad0461b07116802b4c15e9ac"
     },
     {
       "path": "figures/figure_3_paired_comparisons.svg",
-      "bytes": 17471,
-      "sha256": "d93d1393098c439675d5244e6c124f52dbe9276da5e7287b6bb879765699b45e"
+      "bytes": 88159,
+      "sha256": "50e1b9629acc2f8523197b6accea99f09a18480eb56644ab004338004297c4b8"
     },
     {
       "path": "figures/figure_4_worked_report.pdf",
@@ -270,9 +308,104 @@
       "sha256": "559cda5d4c2f6c0676eaa9e898cc65145ed0470425a888179cf34c84a0210757"
     },
     {
+      "path": "figures/figure_5_lung_collage.pdf",
+      "bytes": 3631813,
+      "sha256": "a5d0c12873050825ba523dd47c6c86ac65ad817228a952eb77d450d8e6552054"
+    },
+    {
+      "path": "figures/figure_5_lung_collage.png",
+      "bytes": 3347688,
+      "sha256": "8bf1cff9c23b9c26555c78f25708f67ded24badd3b37600994f99a8b0cf9d344"
+    },
+    {
+      "path": "figures/figure_5_lung_collage.svg",
+      "bytes": 5315701,
+      "sha256": "5b90a396261c293299c0df1435ed2071d9066aabde0faa5b9c9da1598630f193"
+    },
+    {
       "path": "index.html",
-      "bytes": 3106245,
-      "sha256": "63fe85044b399c4506df7e89ff6f67a44403d9a7dcde945662bdfb96e81d6e20"
+      "bytes": 3231869,
+      "sha256": "9736758818b0d1df1b5b625b75c3f4965fe36418acfc712db7a70ab549dc5b1b"
+    },
+    {
+      "path": "lung/FREEZE.json",
+      "bytes": 1223,
+      "sha256": "74d1199ddc0946f46ba80c9c7a515be2919041bb8ca5b8514afb20332d07b9ad"
+    },
+    {
+      "path": "lung/inputs.json",
+      "bytes": 3749,
+      "sha256": "fc624b53a6d159583c8ef3e6109eb30049c17f29004f9e81a4ae0c1f10d80d7c"
+    },
+    {
+      "path": "lung/LUNG-MP-01_original.jpg",
+      "bytes": 446650,
+      "sha256": "45d160034641ede847531df19dd16e1f994b462b4b47d11dabaa53cd103d611a"
+    },
+    {
+      "path": "lung/LUNG-MP-01_philter.jpg",
+      "bytes": 435400,
+      "sha256": "32a4d6554d2464af06848da59deb80095f50f469aa9364b8e02eeacde9437f95"
+    },
+    {
+      "path": "lung/LUNG-MP-01_v5.jpg",
+      "bytes": 428011,
+      "sha256": "7183810de75e76a8d5ad78a29c768b25e0d4e8a58b76787cbcff8625c08d4074"
+    },
+    {
+      "path": "lung/LUNG-MP-01_v6.jpg",
+      "bytes": 425017,
+      "sha256": "f30eda1256ec23f7e925b38100046e605bbcefdc625f205c029ea18b2e4d817d"
+    },
+    {
+      "path": "lung/LUNG-SP-01_original.jpg",
+      "bytes": 364757,
+      "sha256": "c2560b6e62afb9a2d5b344abaee1e5a9db37cb469d1817ad70af140b013bb94a"
+    },
+    {
+      "path": "lung/LUNG-SP-01_philter.jpg",
+      "bytes": 354424,
+      "sha256": "96ab7a363987cb9ac07e3a5e3b3d5de35a693be8e49b9418a9167844ea07cd9e"
+    },
+    {
+      "path": "lung/LUNG-SP-01_v5.jpg",
+      "bytes": 347276,
+      "sha256": "0dcfbc6c3c0b23e2a23094ed077bd6c4c4a1eb4e16c82d1a838f9063e667e76c"
+    },
+    {
+      "path": "lung/LUNG-SP-01_v6.jpg",
+      "bytes": 345040,
+      "sha256": "82de1099cf3659d7ebdbb2e4af8078d23dd839171c670bf750f2b24d65d4ad98"
+    },
+    {
+      "path": "lung/lung_report_collage.jpg",
+      "bytes": 1075545,
+      "sha256": "875ee2801c6715fe29f031b7450fc61e26a5e0c08a89dd5489bbc17ab53a0a33"
+    },
+    {
+      "path": "lung/lung_report_collage.pdf",
+      "bytes": 3631813,
+      "sha256": "a5d0c12873050825ba523dd47c6c86ac65ad817228a952eb77d450d8e6552054"
+    },
+    {
+      "path": "lung/lung_report_collage.png",
+      "bytes": 3347688,
+      "sha256": "8bf1cff9c23b9c26555c78f25708f67ded24badd3b37600994f99a8b0cf9d344"
+    },
+    {
+      "path": "lung/lung_report_collage.svg",
+      "bytes": 5315701,
+      "sha256": "5b90a396261c293299c0df1435ed2071d9066aabde0faa5b9c9da1598630f193"
+    },
+    {
+      "path": "lung/outputs.json",
+      "bytes": 10895,
+      "sha256": "5901b3e992ced4718630aca7b3fee880d8055e7f3bc41758d3514d2635d75b79"
+    },
+    {
+      "path": "lung/README.md",
+      "bytes": 1400,
+      "sha256": "909adae0a74701868d0ba598bc88f693ffb59cd491ad9187a86520d429212fd7"
     },
     {
       "path": "methods/BASELINE_PROVENANCE.json",
@@ -321,13 +454,13 @@
     },
     {
       "path": "METHODS.md",
-      "bytes": 4802,
-      "sha256": "bdebf1de1e88818c6cc32b6ac3bfae4d0ab5e2082716aeaa48db78829d68d044"
+      "bytes": 6599,
+      "sha256": "9f72cb6be0b6d14e4e1cc0742881a1c55a9cb7aada971d74945d33359284cf4a"
     },
     {
       "path": "Pathology_Abstract_and_Figures.pdf",
-      "bytes": 431984,
-      "sha256": "b3fc0588f1901b109e66664781c13011df3673cdb9c1b20130b0cab502d5bdd8"
+      "bytes": 3988806,
+      "sha256": "a30e9e3d117174a66aa51000b02bd0f684552ead5437fff8c3b514e0f7181b2f"
     },
     {
       "path": "poster/Pathology_BRAF_Figure_with_QR.pdf",
@@ -351,18 +484,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4575,
-      "sha256": "9f6606deecfeeb0ba3a3f53df15174ec271e643b469a63f25dd234253a6e29ad"
+      "bytes": 5352,
+      "sha256": "373f8e2e426d4c944ef7239a89317f449a641d70d881f33fe737ee2118c3c412"
     },
     {
       "path": "RESULTS.csv",
-      "bytes": 332,
-      "sha256": "de4570a1f799c5bc916411fe845c4a3d9623b1260c00b58d8fd56690c585b2fd"
+      "bytes": 367,
+      "sha256": "278510e6fd137ddfa5ca8bad71d32503e851b387caf495f7222e63420554fea9"
     },
     {
       "path": "REVIEW_AND_LIMITATIONS.md",
-      "bytes": 10223,
-      "sha256": "7e06a9505ee39fbef86e13aca53d7530be1330d4f2fb1beb4f76b36a666b0360"
+      "bytes": 10827,
+      "sha256": "079872ef48465d5a572d0bfba47d32f21647da0f6c4a03e4993d44425921b310"
     },
     {
       "path": "TECHNICAL_PROVENANCE.md",

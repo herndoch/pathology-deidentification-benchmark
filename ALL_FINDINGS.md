@@ -2,9 +2,9 @@
 
 **Background:** Pathology reports could support report standardization, summarization, hypothesis generation and testing, and research abstraction. De-identification must remove patient identifiers while preserving molecular findings needed for these uses.
 
-**Design:** An institution-developed pipeline and context-aware rules were compared with five frontier LLM configurations (GPT-5.6 Sol through two interfaces, Claude Sonnet 5, Gemini 3.1 Pro, and Grok 4.6) on 200 unique synthetic report pairs. Success required preserving a molecular expression in one report and removing similarly formatted identifying digits in its paired control. A separate 200-pair experiment evaluated local refinement across eight report patterns. Paired analyses accounted for repeated patterns and multiple comparisons.
+**Design:** An institution-developed pipeline, context-aware rules, and their frozen refinement were compared with five frontier LLM configurations (GPT-5.6 Sol through two interfaces, Claude Sonnet 5, Gemini 3.1 Pro, and Grok 4.6) on 200 unique synthetic report pairs. Success required preserving a molecular expression in one report and removing similarly formatted identifying digits in its paired control. A separate 200-pair experiment evaluated local refinement across eight report patterns. Paired analyses accounted for repeated patterns and multiple comparisons.
 
-**Results:** The institution-developed pipeline preserved complete molecular expressions in 0/200 reports and exposed identifying digits in 11/200 controls. Context-aware rules preserved 159/200 expressions, exposed digits in 30/200 controls, and achieved both objectives in 133/200 pairs. LLM configurations preserved 200/200 expressions and achieved both objectives in 197–200/200 pairs, with 0–3/200 controls exposing digits (adjusted p=0.16 versus context-aware rules, accounting for report patterns). Local failures included molecular over-redaction and identifiers missed across line breaks, repeated footers, parenthetical fields, and modified labels. In the separate experiment, refinement reduced exposures from 100/200 to 50/200 while preserving all 200 molecular expressions; parenthetical-field and modified-label failures persisted.
+**Results:** The institution-developed pipeline preserved complete molecular expressions in 0/200 reports and exposed identifying digits in 11/200 controls. Context-aware rules preserved 159/200 expressions, exposed digits in 30/200 controls, and achieved both objectives in 133/200 pairs. Refined rules reduced exposures to 3/200 and improved joint success to 156/200. LLM configurations preserved 200/200 expressions and achieved both objectives in 197–200/200 pairs, with 0–3/200 controls exposing digits (paired adjusted p<0.001 versus both local rule methods; evidence weakened after grouping shared patterns). Local failures included molecular over-redaction and identifiers missed across line breaks, repeated footers, parenthetical fields, and modified labels. In the separate experiment, refinement reduced exposures from 100/200 to 50/200 while preserving all 200 molecular expressions; parenthetical-field and modified-label failures persisted.
 
 **Conclusions:** Local refinement corrected specific failures but left identifier exposure. Frontier LLM configurations performed better descriptively. This synthetic benchmark evaluates identifier removal and molecular preservation, not genomic re-identification or clinical deployment safety.
 
@@ -15,6 +15,7 @@
 |---|---:|---:|---:|
 | Institution-developed redaction pipeline | 11 | 0 | 0 |
 | Context-aware rules | 30 | 159 | 133 |
+| Refined local rules | 3 | 159 | 156 |
 | GPT-5.6 Sol · enterprise | 2 | 200 | 198 |
 | GPT-5.6 Sol · developer-tool | 0 | 200 | 200 |
 | Claude Sonnet 5 | 3 | 200 | 197 |
@@ -88,3 +89,13 @@ These are automated, post hoc policy-sensitivity results following user approval
 ## Muse collection snapshot
 
 Muse returned 20 usable reports: 8 identifying-value controls and 12 clinical reports. Tested digits were exposed in 0/8 controls; molecular expressions were retained in 12/12 clinical reports. There were 0 complete matched pairs, so no paired success estimate is available. The next batch ended with resource_exhausted; remaining requests were held. This error does not identify the cause as account credits. Muse remains excluded from the main comparison.
+
+## Supplementary matched evaluation of refined local rules
+
+The previously frozen refined local method was subsequently evaluated on the same 200 main-comparison pairs (400 reports), using the saved baseline masks. It received only the source text and baseline spans. No rule changes, new hosted LLM calls, or edits to the original seven approaches were made. This is an exploratory supplementary comparison, not a prospectively specified arm. Input and method hashes were recorded before execution.
+
+Refined rules exposed tested identifying digits in 3/200 controls, retained complete molecular expressions in 159/200 reports, and achieved both objectives in 156/200 pairs (78%). Earlier rules achieved 133/200 (66.5%); the LLM configurations achieved 197-200/200 (98.5-100%). Thus the refined method still failed one or both objectives on 44 pairs, versus 0-3 for the LLM configurations.
+
+Six new exploratory contrasts (refined versus earlier rules and each of five LLM configurations versus refined rules) were adjusted separately from the original six contrasts. All five LLM-versus-refined exact paired tests have adjusted p<0.001. Accounting for shared report-pattern families gives adjusted p=0.375 for these five comparisons; refined versus earlier rules gives pattern-level p=0.50. Individual-pair tests assume independence between pairs, which template reuse may violate. Counts are descriptive; small paired p-values do not establish independent clinical generalizability.
+
+The original pattern-adjusted p=0.156 for LLM versus earlier rules is retained. Both approaches to uncertainty remain visible; the statistical method was not changed to obtain a smaller p-value. This 200-pair matched supplement remains distinct from the separate 200-pair local refinement experiment.

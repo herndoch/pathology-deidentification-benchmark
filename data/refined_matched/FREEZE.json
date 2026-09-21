@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-21T16:05:11.519871+00:00",
+  "scope": "Supplementary post hoc evaluation of previously frozen refined rules on the unchanged main 200 pairs; original seven-arm results preserved.",
+  "method_hashes": {
+    "methods.py": "bb42875f5c0fc25b96c849c2f4a3d9083175344d39cd1958c1522fa621743eee",
+    "methods_v2.py": "65a13284729210ed71687b4d9ce62302cabb75858dc64804cad994c508068f48",
+    "methods_v3.py": "a5a476b5281a0df57a02393915920a947837ab57fb254d401d776eb3822bc37b",
+    "methods_v4.py": "a5532d2438eadc8ed44e00fc828905fcb13495b3ec74b9863e77b81cce7f4328",
+    "methods_v5.py": "4b214cd0b692ba3cda5098c0296357cafcf088e8bae9736bb04d5d1a1ba2d8e2",
+    "methods_v6.py": "71b3dae993263f5d6b502ec2ce861a0b6ce3e3b3e0a07503d80f8fcf8dde156c"
+  },
+  "source_hashes": {
+    "gold.json": "17c53b229047eb9a2b5d1573e01e70e8c2d6b5605f38f04c6168cc197b76a993",
+    "local_philter_outputs.json": "9325a92aa61ba61a5c0bc45d7a5a7c293006b5ea7f1e7fe4dcfec812323d9d59"
+  },
+  "new_hosted_calls": 0
+}
