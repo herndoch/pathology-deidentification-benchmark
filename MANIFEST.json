@@ -5,6 +5,11 @@
   "new_local_reports_evaluated": 80,
   "files": [
     {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "ABSTRACT.md",
       "bytes": 2152,
       "sha256": "6e1fa36cdb577f3d5ca60b1bfcf78247674f2e3a49be58e91969290137a6e485"
@@ -252,7 +257,7 @@
     {
       "path": "figures/figure_4_worked_report.pdf",
       "bytes": 47333,
-      "sha256": "b99750a6d83f6aa3c4882b8046971c1a45996b44d37ea70c627f457aedd9d083"
+      "sha256": "cbc744eefb72cde7076cc097f9f05d66a9af6c9146b383882c40970d55dd5fcc"
     },
     {
       "path": "figures/figure_4_worked_report.png",
@@ -262,12 +267,12 @@
     {
       "path": "figures/figure_4_worked_report.svg",
       "bytes": 135811,
-      "sha256": "6087409e0c4a2d9102b39c0ddee44a5a4f915835d5753de4a1566e93e04e10ea"
+      "sha256": "92825613344d648848967972e63c5ce554a25d69de1df91557fea1acff0dff63"
     },
     {
       "path": "index.html",
-      "bytes": 3104635,
-      "sha256": "cf88f304ff19e84f04bdc1cc6242ee8336ce774955aa5ac6a9036eef0fec2f5a"
+      "bytes": 3105926,
+      "sha256": "d0ad647024419c7ecf2303b848152f28e90d5997ccc9014013747b3d08f6111e"
     },
     {
       "path": "methods/BASELINE_PROVENANCE.json",
@@ -325,9 +330,29 @@
       "sha256": "1cb97decba4edc3925a26fd4a47a5804d8073e530cd497ce59a5c0a7c78f4524"
     },
     {
+      "path": "poster/Pathology_BRAF_Figure_with_QR.pdf",
+      "bytes": 87058,
+      "sha256": "55537b44ac54eae12d8f616b419f3e3cc124e26fefa51113fa2376ffe599be65"
+    },
+    {
+      "path": "poster/Pathology_Poster_QR_Card.pdf",
+      "bytes": 5338,
+      "sha256": "59512a8612299314560d36a3f3e9117917d22aa77deaa400a45f06a91b8ece54"
+    },
+    {
+      "path": "poster/project_qr.png",
+      "bytes": 1165,
+      "sha256": "d7bc851d63d0a04fd4661ad2aae67dc2f5188f895d9455d45f37cce7eafa0898"
+    },
+    {
+      "path": "poster/project_qr.svg",
+      "bytes": 16739,
+      "sha256": "70a67797d360791c0924ad6082d6f3879ac90df38a271d4cb4438387508d3a30"
+    },
+    {
       "path": "README.md",
-      "bytes": 4314,
-      "sha256": "2d770328c0d75f191e061ecb48b4d392284d4363a396cb656fa2d7c41e43c425"
+      "bytes": 4575,
+      "sha256": "9f6606deecfeeb0ba3a3f53df15174ec271e643b469a63f25dd234253a6e29ad"
     },
     {
       "path": "RESULTS.csv",
