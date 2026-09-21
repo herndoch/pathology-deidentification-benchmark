@@ -1,0 +1,15 @@
+## Figure 1. Overall failure in the matched comparison.
+
+Each approach processed the same 200 unique synthetic pairs (400 reports). Failure means loss of the tested molecular expression, exposure of the designated identifying digits, or both. Earlier context-aware rules failed 67 pairs, refined rules 44, and LLM configurations 0-3. The institution-developed pipeline failed all 200 pairs (Figure S1). Exploratory pair-level comparisons favored LLMs (adjusted p<.001); grouping reports sharing a pattern yielded inconclusive results (adjusted p=.156 versus earlier rules; .375 versus refined rules). The refined comparison was added subsequently. GPT Enterprise used the chat interface; non-Enterprise GPT, Sonnet, Gemini, and Grok used the same shared model-access interface.
+
+## Figure 2. Molecular information lost or preserved in a synthetic lung case.
+
+A fictional lung adenocarcinoma biopsy and linked EGFR report are shown before redaction and after processing by the institution-developed pipeline and refined local rules. The enlarged excerpt shows EGFR p.T790M masked by the pipeline and retained by the refined rules. All report details are invented. These are actual local-method outputs; no hosted LLM was run on this illustration. The case is excluded from both benchmark cohorts. Repeated synthetic banners and blank margins are omitted for display; source text and saved outputs remain unchanged.
+
+## Figure 3. Designed report layouts reveal persistent local failures.
+
+This separate local experiment contains 200 unique synthetic pairs across eight investigator-designed report patterns. Patterns combine known local weaknesses and contextual challenges, including line breaks, parentheses, footer placement, tables, modified labels, and specimen links. Each pattern contains 25 pairs: 20 original and five additional distinct pairs. Panel A counts identifier-control reports exposing designated digits out of 25 controls per pattern; panel B summarizes molecular preservation and joint success across all 200 pairs. Refinement corrected two patterns but left parenthetical-field and modified-label failures, reducing exposed controls from 100 to 50. Improvement remained inconclusive when grouped by pattern (p=.50). These cases were not pooled with the main comparison.
+
+## Supplementary Figure S1. Identifier removal, molecular preservation, and joint success.
+
+All eight approaches were evaluated on the same 200 unique report pairs. Panel A counts controls retaining tested identifying digits; panel B counts molecular reports retaining the complete tested expression; panel C requires both outcomes to succeed within a pair. Zero tested-digit exposure does not establish removal of all identifiers. Five LLM configurations represent four model families, with GPT evaluated through Enterprise and the shared interface used by the other models. Refined rules were evaluated subsequently without changes to their implementation.
